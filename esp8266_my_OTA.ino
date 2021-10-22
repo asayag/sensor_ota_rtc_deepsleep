@@ -26,7 +26,7 @@ extern "C" {
 
 #define RTCMEMORYSTART 69
 #define RTCMEMORYLEN 127
-#define max_save_data 14 //(127-69)/4 //
+#define max_save_data 19 //(127-69)/3 //
 
 extern "C" {
 #include "user_interface.h" // this is for the RTC memory read/write functions
